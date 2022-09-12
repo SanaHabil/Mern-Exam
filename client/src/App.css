@@ -1,0 +1,207 @@
+body {
+  background-color: rgb(247, 233, 245);
+}
+.App {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Dongle', sans-serif;
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+ 
+
+}
+
+.card{
+  border-radius:5px;
+  height:300px;
+  width:250px;
+  text-align:center;
+  margin:10px;
+  padding:20px;
+  color:rgb(154, 71, 255);
+  font-Size:20px;
+  font-weight: bold;
+  box-shadow:0px 2px 6px white, 0px 4px 6px rgb(186, 30, 206);
+  margin-left:700px;
+}
+
+.card:hover{
+  box-shadow:0px 2px 7px white, 0px 4px 9px grey;
+
+}
+
+.container{
+  display:flex;
+  padding:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+
+}
+
+.row{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.col{
+  display:flex;
+  flex-direction:column;
+}
+
+.form-control{
+  border-radius:5px;
+  border:2px solid grey;
+  width:300px;
+  height:30px;
+  margin:5px;
+}
+
+.formInputDiv {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+label{
+  font-size: 30px;;
+}
+
+h3{
+  font-size:50px;
+  background-color:#d3d3d3;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.btn{
+  border:none;
+  height:50px;
+  width:90px;
+  border-radius: 20px;
+  margin-left:10px;
+  margin:10px;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Dongle', sans-serif;
+  font-size:18px;
+  background-color:#e1c5ec;
+  color:grey;
+}
+
+.btn:hover{
+  border-radius:5px;
+}
+
+
+.p-purple{
+  font-size:30px;
+  color:rgb(154, 71, 255);
+  background-color:#e1c5ec;
+  border-radius: 20px;
+  border:none;
+  padding:10px
+}
+
+h1{
+  font-size:30px;
+  color:rgb(252, 250, 253);
+  background-color:#a776bb;
+  border-radius: 20px;
+  border:none
+}
+a {
+  color: rgb(154, 71, 255);
+  font-size: 25px;
+  text-decoration: none;
+  font-family: 'Dongle', sans-serif;
+}
+
+a:hover {
+  color: rgb(251, 0, 255);
+}
+.hover{
+  transition:.2s;
+}
+
+.danger{
+  background-color:tomato
+}
+
+
+
+h4{
+  font-size: 30px;
+}
+
+.card-view{
+  height:70vh;
+  width:80%;
+  border-radius:10px;
+  border:2px solid grey;
+  overflow:scroll;
+  box-shadow:0px 2px 6px white, 0px 4px 6px black;
+}
+
+::-webkit-scrollbar{
+  width:4px;
+  height:90%;
+}
+
+
+th, tr, td{
+  border: 1px solid #a776bb;
+  color: rgb(142, 14, 223);
+  text-align: "center"
+}
+table {
+  width: 50%;
+  border: 1px solid #a776bb;
+  color: rgb(142, 14, 223);
+}
+
+
+.tableDiv {
+  background-color:#ece0f1;
+  display: flex;
+  justify-content: center;
+  padding:30px;
+
+}
+.formdiv{
+  background-color:#ece0f1;
+  padding:30px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding:20px;
+  flex-wrap: row;
+  
+  
+}
+.btndiv{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+
+}
+
+
+.inputbox {
+  width: 200px;
+  height: 30px;
+  border:0;
+  border-radius:15px;
+  box-shadow: 10px 5px 5px rgba(201, 5, 236, 0.3);
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+
+}
+.input-label {
+    color:  rgb(154, 71, 255);
+    font-size: 20px;
+    margin-right: 20px;
+}
